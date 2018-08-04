@@ -14,6 +14,6 @@
  "author": "Bongani Mbigi <bongani@utexas.edu>",
  "license": "MIT",
  "dependencies": {
-  "showdown": "^1.6.2"
+  "showdown": "1.6.2"
  }
 }
