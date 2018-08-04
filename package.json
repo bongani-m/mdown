@@ -4,16 +4,24 @@
  "description": "This is a simple markdown commandline tool that will convert .md to .html",
  "main": "index.js",
  "scripts": {
-  "run": "node index.js"
+  "run": "node index.js",
+  "test": "jasmine"
  },
  "bin": {
   "mdown": "index.js"
  },
- "keyword": ["markdown", "commandline", "terminal"],
+ "keyword": [
+  "markdown",
+  "commandline",
+  "terminal"
+ ],
  "repository": "https://github.com/bongani-m/mdown.git",
  "author": "Bongani Mbigi <bongani@utexas.edu>",
  "license": "MIT",
  "dependencies": {
   "showdown": "1.6.2"
+ },
+ "devDependencies": {
+  "jasmine": "^3.1.0"
  }
 }
